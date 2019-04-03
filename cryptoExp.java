@@ -13,7 +13,7 @@ public class cryptoExp {
         System.out.print("Type your target: ");
         int target = kb.nextInt();
 
-        if(target > guess){   // limits size of user input
+        if(target > factor){   // limits size of user input
             System.out.println("Error, please type a number within range of the factor");
             System.exit(0);
         }
@@ -45,3 +45,4 @@ public class cryptoExp {
 
 
 }
+
