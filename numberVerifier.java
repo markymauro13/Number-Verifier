@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cryptoExp {
+public class numberVerifier {
 
     static Scanner kb = new Scanner(System.in);
     private static int factor = 1000;
